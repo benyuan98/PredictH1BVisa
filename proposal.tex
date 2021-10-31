@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{\vspace{-1.5cm}5741 Project Proposal: H-1B Petition Analysis}
+\author{Yueran Yang, Zongyuan Yuan}
+\date{October 2021}
+
+\begin{document}
+\maketitle
+\section{Background}
+
+The H-1B is a visa in the United States that allows U.S. employers to temporarily employ foreign workers in specialty occupations. Labor Condition Application (LCA) for the employee that includes information such as wages and job titles should be filed by the employer to the  U.S. Department of Labor Employment and Training Administration to show that the employer want to hire a foreign worker in a specific position for no more than 3 years. Once LCA is approved, the next stage of the H-1B is a random selection process often referred to as "H-1B Lottery". The lottery process will ultimately decide whether an applicant will get the H-1B visa. Effective 2022, a new policy will be applied to the lottery process, but the LCA stage remains unchanged. Due to the random nature of the lottery process, our project focuses only on the LCA stage.
+
+\section{Question}
+\begin{itemize}
+    \item What is the possibility of LCA being approved for a specific applicant?  
+    \item Whether a company should hire a foreign worker for a specific position?
+    \item Which position or company should a job seeker prepare for to maximize the chance of approval for H-1B application? 
+\end{itemize}
+ 
+
+\section{Data}
+The data using in this project is H1B Disclosure Dataset in Kaggle shared by user Charmi \footnote{\url{https://www.kaggle.com/trivedicharmi/h1b-disclosure-dataset}}. The original data was provided by Office of Foreign Labor Certification (OFLC) \footnote{\url{https://www.foreignlaborcert.doleta.gov/performancedata.cfm}}. The entries in the data contains all the data required by OFLC, including employers' personal information (like state, wages, positions, etc.) and company related information (like location, total workers, etc.). We can train a classifier using all the possible determinants for predicting the status. Using different features can help us achieving different goals (as we mentioned in the questions above). 
+
+\section{Importance}
+Hiring a foreign worker for a position brings additional cost to an employer because the employer has to pay for H-1B application fees and legal service fees. If an employer can know beforehand how likely their LCA for an employee is going to be approved, the employer can better decide whether they should hire a foreign candidate for a position. Our solution can not only make employers more informed about their risks in hiring a foreign but also save their cost by preventing filing an LCA that is unlikely going to be approved in the first e project can save money and time for the companies to select their target employees for different positions. 
+ 
+On the other hand, from the perspective of a job seeker, our solution can help him/her 1) compare between different job offers he/she has in terms of the chance of getting an H-1B 2) choose a job with more stable prospect 3) better plan their career path, which can make this two-way selection more efficient. 
+
+\end{document}
