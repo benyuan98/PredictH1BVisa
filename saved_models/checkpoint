@@ -1,0 +1,2 @@
+model_checkpoint_path: "nn_2labels_model.sav"
+all_model_checkpoint_paths: "nn_2labels_model.sav"
