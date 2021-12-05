@@ -5,7 +5,7 @@
 
 ### Presentation Link
 
-Please read the following content (also in the description of the video) which explain some points in the presentation before watching the video. 
+Please read the following content (also in the description of the video) which explain some confusing points in the presentation before watching the video. 
 
 [Presentation](https://www.youtube.com/watch?v=kcjxAQDWTu8)
 
