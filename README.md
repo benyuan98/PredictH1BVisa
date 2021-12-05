@@ -5,7 +5,13 @@
 
 ### Presentation Link
 
+Please read the following content (also in the description of the video) which explain some points in the presentation before watching the video. 
+
 [Presentation](https://www.youtube.com/watch?v=kcjxAQDWTu8)
+
+**There might be some confusing point that we forget to explain in the video.**
+
+- The metrics for autoGluon shown in the slide is accuracy. And the training data to pick the model is not down-sampled. We are using AutoGluon as a preliminary method to pick a proper method that can learn the mapping between the features and the labels for us in the following experiments. The models it picked perform best by accuracy on the whole data but not for the balanced accuracy. We decided to use balanced accuracy and down-sampled data after we picked the lightGBM. Thus the test score in the leaderboard of AutoGluon may not match the accuracy in the later experiments. 
 
 **Since we have limited time on the presentation, we add our future work here and in the description of our Youtube video.**
 
